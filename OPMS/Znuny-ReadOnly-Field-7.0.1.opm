@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.1">
+    <Name>Znuny-ReadOnly-Field</Name>
+    <Version>7.0.1</Version>
+    <Vendor>mo-azfar</Vendor>
+    <URL>https://github.com/mo-azfar/</URL>
+    <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
+    <ChangeLog Date="2024-07-27" Version="7.0.1">New package.</ChangeLog>
+    <Description Lang="en">Set input field as read-only.</Description>
+    <Framework>7.0.x</Framework>
+    <IntroInstall Lang="en" Title="Install Information" Type="pre">
+        &lt;br/&gt;
+        &lt;b&gt;WELCOME&lt;/b&gt;
+        &lt;br/&gt;
+        &lt;br/&gt;
+        You are about to install the package Znuny-ReadOnly-Field. Check &lt;a href='https://github.com/mo-azfar/Znuny-ReadOnly-Field' target='_blank'/&gt;README&lt;/a&gt;&lt;br/&gt;
+        &lt;br/&gt;&lt;br/&gt;
+        ((enjoy))&lt;br/&gt;
+        &lt;br/&gt;
+    </IntroInstall>
+    <IntroUpgrade Lang="en" Title="Upgrade Information" Type="pre">
+        &lt;br/&gt;
+        Changelog&lt;br/&gt;
+        7.0.1 - New package.&lt;br/&gt;
+        &lt;br/&gt;&lt;br/&gt;
+        ((enjoy))&lt;br/&gt;
+        &lt;br/&gt;
+    </IntroUpgrade>
+    <BuildDate>2024-07-27 17:44:13</BuildDate>
+    <BuildHost>app.wsl.my</BuildHost>
+    <Filelist>
+        <File Location="Kernel/Config/Files/XML/ZZZReadOnlyField.xml" Permission="660" Encode="Base64">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPG90cnNfY29uZmlnIHZlcnNpb249IjIuMCIgaW5pdD0iQ29uZmlnIj4KICAgIDxTZXR0aW5nIE5hbWU9IkZyb250ZW5kOjpPdXRwdXQ6OkZpbHRlckNvbnRlbnQjIyNSZWFkT25seUZpZWxkIiBSZXF1aXJlZD0iMCIgVmFsaWQ9IjEiPgogICAgICAgIDxEZXNjcmlwdGlvbiBUcmFuc2xhdGFibGU9IjEiPk1vZHVsZSB0byBzZXQgZmllbGQgYXMgcmVhZG9ubHkuPC9EZXNjcmlwdGlvbj4KICAgICAgICA8TmF2aWdhdGlvbj5Gcm9udGVuZDo6QmFzZTo6T3V0cHV0RmlsdGVyPC9OYXZpZ2F0aW9uPgogICAgICAgIDxWYWx1ZT4KICAgICAgICAgICAgPEhhc2g+CiAgICAgICAgICAgICAgICA8SXRlbSBLZXk9Ik1vZHVsZSI+S2VybmVsOjpPdXRwdXQ6OkhUTUw6OkZpbHRlckNvbnRlbnQ6OlJlYWRPbmx5RmllbGQ8L0l0ZW0+CiAgICAgICAgICAgICAgICA8SXRlbSBLZXk9IkRlYnVnIj4wPC9JdGVtPgogICAgICAgICAgICAgICAgPEl0ZW0gS2V5PSJUZW1wbGF0ZXMiPgogICAgICAgICAgICAgICAgICAgIDxIYXNoPgogICAgICAgICAgICAgICAgICAgICAgICA8SXRlbSBLZXk9IkFnZW50VGlja2V0RnJlZVRleHQiPjE8L0l0ZW0+CiAgICAgICAgICAgICAgICAgICAgPC9IYXNoPgogICAgICAgICAgICAgICAgPC9JdGVtPgogICAgICAgICAgICAgICAgIDxJdGVtIEtleT0iRmllbGROYW1lIj4KICAgICAgICAgICAgICAgICAgICA8QXJyYXk+CiAgICAgICAgICAgICAgICAgICAgICAgIDxJdGVtPkR5bmFtaWNGaWVsZF9TdXBwb3J0UXVvdGE8L0l0ZW0+CiAgICAgICAgICAgICAgICAgICAgPC9BcnJheT4KICAgICAgICAgICAgICAgIDwvSXRlbT4KICAgICAgICAgICAgPC9IYXNoPgogICAgICAgIDwvVmFsdWU+CiAgICA8L1NldHRpbmc+Cjwvb3Ryc19jb25maWc+Cg==</File>
+        <File Location="Kernel/Output/HTML/FilterContent/ReadOnlyField.pm" Permission="660" Encode="Base64">IyAtLQojIENvcHlyaWdodCAoQykgMjAyNCBtby1hemZhciwgaHR0cHM6Ly9naXRodWIuY29tL21vLWF6ZmFyCiMgLS0KIyBUaGlzIHNvZnR3YXJlIGNvbWVzIHdpdGggQUJTT0xVVEVMWSBOTyBXQVJSQU5UWS4gRm9yIGRldGFpbHMsIHNlZQojIHRoZSBlbmNsb3NlZCBmaWxlIENPUFlJTkcgZm9yIGxpY2Vuc2UgaW5mb3JtYXRpb24gKEdQTCkuIElmIHlvdQojIGRpZCBub3QgcmVjZWl2ZSB0aGlzIGZpbGUsIHNlZSBodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzL2dwbC0zLjAudHh0LgojIC0tCgpwYWNrYWdlIEtlcm5lbDo6T3V0cHV0OjpIVE1MOjpGaWx0ZXJDb250ZW50OjpSZWFkT25seUZpZWxkOwoKdXNlIHN0cmljdDsKdXNlIHdhcm5pbmdzOwp1c2UgdXRmODsKCm91ciBAT2JqZWN0RGVwZW5kZW5jaWVzID0gKAogICAgJ0tlcm5lbDo6U3lzdGVtOjpXZWI6OlJlcXVlc3QnLAogICAgJ0tlcm5lbDo6T3V0cHV0OjpIVE1MOjpMYXlvdXQnLAopOwoKc3ViIG5ldyB7CiAgICBteSAoICRUeXBlLCAlUGFyYW0gKSA9IEBfOwoKICAgICMgYWxsb2NhdGUgbmV3IGhhc2ggZm9yIG9iamVjdAogICAgbXkgJFNlbGYgPSB7fTsKICAgIGJsZXNzKCAkU2VsZiwgJFR5cGUgKTsKCiAgICByZXR1cm4gJFNlbGY7Cn0KCnN1YiBSdW4gewogICAgbXkgKCAkU2VsZiwgJVBhcmFtICkgPSBAXzsKCiAgICBteSAkUGFyYW1PYmplY3QgID0gJEtlcm5lbDo6T00tPkdldCgnS2VybmVsOjpTeXN0ZW06OldlYjo6UmVxdWVzdCcpOwogICAgbXkgJExheW91dE9iamVjdCA9ICRLZXJuZWw6Ok9NLT5HZXQoJ0tlcm5lbDo6T3V0cHV0OjpIVE1MOjpMYXlvdXQnKTsKCiAgICBteSAkQWN0aW9uID0gJFBhcmFtT2JqZWN0LT5HZXRQYXJhbSggUGFyYW0gPT4gJ0FjdGlvbicgKTsKCiAgICByZXR1cm4gMSBpZiAhJEFjdGlvbjsKICAgIHJldHVybiAxIGlmICEkUGFyYW17VGVtcGxhdGVzfS0+eyRBY3Rpb259OwogICAgcmV0dXJuIDEgaWYgIUB7ICRQYXJhbXtGaWVsZE5hbWV9IH07CgogICAgbXkgJEZpZWxkTmFtZXMgPSBqb2luICInLCAnIiwgQHsgJFBhcmFte0ZpZWxkTmFtZX0gfTsKCiAgICBteSAkSlMgPSA8PCJFT0YiOwogICAgICAgIDxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4KICAgICAgICBcJChkb2N1bWVudCkuYWpheENvbXBsZXRlKGZ1bmN0aW9uIChFdmVudCwgWEhSLCBTZXR0aW5ncykgewoKICAgICAgICAgICAgdmFyIEZpZWxkTmFtZXMgPSBbICckRmllbGROYW1lcycgXTsKCiAgICAgICAgICAgIEZpZWxkTmFtZXMuZm9yRWFjaChmdW5jdGlvbiAoRmllbGROYW1lKSB7CiAgICAgICAgICAgICAgICB2YXIgRWxlbWVudCA9IFwkKCcjJyArIEZpZWxkTmFtZSk7CgogICAgICAgICAgICAgICAgaWYgKCBFbGVtZW50Lmxlbmd0aCAmJiBFbGVtZW50LnZhbCgpICkgewogICAgICAgICAgICAgICAgICAgIGlmIChFbGVtZW50LmlzKCdzZWxlY3QnKSkgewogICAgICAgICAgICAgICAgICAgICAgICBFbGVtZW50LnByb3AoJ2Rpc2FibGVkJywgdHJ1ZSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGVsc2UgaWYgKEVsZW1lbnQuaXMoJ2lucHV0JykpIHsKICAgICAgICAgICAgICAgICAgICAgICAgRWxlbWVudC5wcm9wKCdyZWFkb25seScsIHRydWUpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSk7CiAgICAgICAgfSk7CiAgICAgICAgPC9zY3JpcHQ+CkVPRgoKICAgICR7ICRQYXJhbXtEYXRhfSB9ID1+IHN7PC9ib2R5fXskSlM8L2JvZHl9OwoKICAgIHJldHVybiAxOwoKfQoKMTsK</File>
+    </Filelist>
+</otrs_package>

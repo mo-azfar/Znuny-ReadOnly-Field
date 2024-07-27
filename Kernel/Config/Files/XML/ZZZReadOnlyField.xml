@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otrs_config version="2.0" init="Config">
+    <Setting Name="Frontend::Output::FilterContent###ReadOnlyField" Required="0" Valid="1">
+        <Description Translatable="1">Module to set field as readonly.</Description>
+        <Navigation>Frontend::Base::OutputFilter</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="Module">Kernel::Output::HTML::FilterContent::ReadOnlyField</Item>
+                <Item Key="Debug">0</Item>
+                <Item Key="Templates">
+                    <Hash>
+                        <Item Key="AgentTicketFreeText">1</Item>
+                    </Hash>
+                </Item>
+                 <Item Key="FieldName">
+                    <Array>
+                        <Item>DynamicField_SupportQuota</Item>
+                    </Array>
+                </Item>
+            </Hash>
+        </Value>
+    </Setting>
+</otrs_config>
